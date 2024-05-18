@@ -1,0 +1,5 @@
+msgid "cm"
+msgstr "cm"
+
+msgid "inch"
+msgstr "inch"
