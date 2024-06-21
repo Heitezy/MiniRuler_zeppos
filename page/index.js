@@ -3,6 +3,7 @@ import { createWidget, widget, deleteWidget, prop } from '@zos/ui'
 import { px } from '@zos/utils'
 import { setPageBrightTime, resetPageBrightTime } from '@zos/display'
 import { getText } from '@zos/i18n'
+import { setScrollLock } from '@zos/page'
 
 Page({
   build() {
@@ -30,6 +31,9 @@ Page({
     let config = { unitSystem: 'metric', inversion: false, rotation: false };
 
     drawUI();
+    setScrollLock({
+      lock: true,
+    });
 
     function drawUI() {
       let PPI = getPPI();
