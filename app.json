@@ -5,8 +5,8 @@
     "appName": "MiniRuler",
     "appType": "app",
     "version": {
-      "code": 1,
-      "name": "1.0.0"
+      "code": 3,
+      "name": "1.0.2"
     },
     "icon": "icon.png",
     "vender": "heitezy",
@@ -103,6 +103,50 @@
       ],
       "designWidth": 390
     },
+    "active2": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/index"
+          ]
+        }
+      },
+      "platforms": [
+        {
+          "name": "8913152",
+          "deviceSource": 8913152
+        },
+        {
+          "name": "8913153",
+          "deviceSource": 8913153
+        },
+        {
+          "name": "8913155",
+          "deviceSource": 8913155
+        },
+        {
+          "name": "8913159",
+          "deviceSource": 8913159
+        },
+        {
+          "name": "10092800",
+          "deviceSource": 10092800
+        },
+        {
+          "name": "10092801",
+          "deviceSource": 10092801
+        },
+        {
+          "name": "10092803",
+          "deviceSource": 10092803
+        },
+        {
+          "name": "10092807",
+          "deviceSource": 10092807
+        }
+      ],
+      "designWidth": 466
+    },
     "gtr4": {
       "module": {
         "page": {
@@ -186,6 +230,30 @@
         }
       ],
       "designWidth": 454
+    },
+    "trex3": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/index"
+          ]
+        }
+      },
+      "platforms": [
+        {
+          "name": "t-rex-3",
+          "deviceSource": 8716544
+        },
+        {
+          "name": "t-rex-3-2",
+          "deviceSource": 8716545
+        },
+        {
+          "name": "t-rex-3-3",
+          "deviceSource": 8716547
+        }
+      ],
+      "designWidth": 480
     },
     "cheetah-pro": {
       "module": {
@@ -282,6 +350,30 @@
         }
       ],
       "designWidth": 320
+    },
+    "bip6": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/index"
+          ]
+        }
+      },
+      "platforms": [
+        {
+          "name": "bip6v1",
+          "deviceSource": 9765120
+        },
+        {
+          "name": "bip6v2",
+          "deviceSource": 9765121
+        },
+        {
+          "name": "bip6v3",
+          "deviceSource": 10158337
+        }
+      ],
+      "designWidth": 390
     }
   },
   "i18n": {

@@ -348,6 +348,34 @@ Page({
           return 260;
         case 8454401:
           return 260;
+        case 8913152: // active2
+          return 353;
+        case 8913153:
+          return 353;
+        case 8913155:
+          return 353;
+        case 8913159:
+          return 353;
+        case 10092800:
+          return 353;
+        case 10092801:
+          return 353;
+        case 10092803:
+          return 353;
+        case 10092807:
+          return 353;
+        case 8716544: // t-rex3
+          return 322;
+        case 8716545:
+          return 322;
+        case 8716547:
+          return 322;
+        case 9765120: // bip6
+          return 302;
+        case 9765121:
+          return 302;
+        case 10158337:
+          return 302;
         default:
           return 326;
       }
